@@ -1,0 +1,44 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.a1, .a2, .a3, .a4, .a5, .a6
+{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+p
+{
+	display: none;
+}
+
+.big
+{
+	font-style: bold;
+	font-size: 32px;
+}
+
+#game
+{
+	text-align: center;
+	width: 70%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	line-height: 2;
+}
+
+#credits
+{
+	line-height: 1;
+	text-align: right;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
